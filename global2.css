@@ -1,0 +1,92 @@
+/* Style sheet for the final project. */
+
+
+
+body {
+	background-color: #0d0d0f;
+	margin:0;
+	background-image: url("http://students.bcitwebdev.com/kramirez3/finalproject/images/aberyl2.png"); 
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, p, dl, dd, form {
+	margin: 0;
+	padding-left: 10px;
+	font-family: arial, sans-serif;
+	font-size: 125%;
+	line-height: 150%;
+}
+
+a {
+	font-weight: bold;
+	font-size: 16px;
+	color: #3e1968;
+}
+
+a:visited {
+	font-weight: bold;
+	font-size: 14px;
+	color: #3e1968;
+}
+
+table, th, td {
+   border: 2px solid #3e1968;
+   border-collapse: collapse;
+   margin-left: 10px;
+}
+
+.header {
+	margin:0;
+	clear: both;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 900px;
+	width: 50%;
+	background-color: #f2f2f2;
+}
+
+.content {
+	color: #0d0d0f;
+	text-align: left;
+	background-color: #f2f2f2;
+	font-family: arial;
+	overflow: hidden;
+	clear:left;
+}
+
+.contentimg {
+	height: 300px;
+	width: 500px; 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.footer {
+    font: bold 14px Arial;
+    background-color: #ffecff;
+	color: #3e1968;
+    padding: 0;
+    margin: 0 auto;
+	width: 100%;
+	min-height: 25px;
+	width: 50%;
+    position: relative;
+	padding-top: 10px;
+}
+
+.linebreak {
+	padding-left: 0px;
+	margin-top: auto;
+	margin-bottom: auto;
+	background-image: url("http://students.bcitwebdev.com/kramirez3/finalproject/images/linebreak.png");
+	background-repeat: repeat-x;
+	width: 100%;
+	color: #ccc;
+	display: block;
+}
